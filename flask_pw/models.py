@@ -77,7 +77,7 @@ class Signal:
             receiver(instance, *args, **kwargs)
 
 
-class BaseSignalModel(pw.BaseModel):
+class BaseSignalModel(pw.ModelBase):
 
     """Create signals."""
 
